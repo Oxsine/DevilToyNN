@@ -163,4 +163,3 @@ st.markdown(f'Loss:  {fn_loss}')
 
 test_plot = plot_devil_toys(X_test, fn_test_pred)
 st.pyplot(test_plot)
-
