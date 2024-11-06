@@ -1,4 +1,6 @@
 import streamlit as st
+import sys
+sys.path.append("C:/Users/oxsine/Documents/Projects/machine_learning/ml_venv/lib/python3.12/site-packages")
 # st.run_on_save()
 import torch
 import torch.nn as nn
