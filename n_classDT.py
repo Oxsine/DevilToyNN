@@ -1,5 +1,5 @@
 import streamlit as st
-st.run_on_save()
+# st.run_on_save()
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
