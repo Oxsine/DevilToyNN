@@ -12,7 +12,7 @@ plt.rcParams['axes.facecolor'] = '#0b0e12'
 plt.style.use('dark_background')
 
 
-st.title("Devil's Toy")
+st.title('Devil\'s Toy')
 
 def generate_data(num_per_class = 300, classes = 3, dim = 2):
 
