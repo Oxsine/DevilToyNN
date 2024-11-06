@@ -1,13 +1,13 @@
+import streamlit as st
+st.run_on_save()
 import torch
 import torch.nn as nn
-import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from sklearn.datasets import make_blobs
 from sklearn.model_selection import train_test_split
 import stqdm
-from tqdm.auto import tqdm
 plt.rcParams['axes.facecolor'] = '#0b0e12' 
 plt.style.use('dark_background')
 
