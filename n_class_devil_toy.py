@@ -3,10 +3,9 @@ import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn.datasets import make_blobs
 from sklearn.model_selection import train_test_split
 import stqdm
-plt.rcParams['axes.facecolor'] = '#0b0e12' 
+plt.rcParams['axes.facecolor'] = '#0b0e12'
 plt.style.use('dark_background')
 
 
@@ -36,14 +35,14 @@ X, y = generate_data(num_per_class=n_dots, classes=cls)
 
 def plot_devil_toys(X, y):
     fig, ax = plt.subplots(figsize=(10, 8))
-    
+
     # Отображаем точки
     ax.scatter(X[:, 0], X[:, 1], c=y, cmap='plasma')
     ax.tick_params(axis='both', which='major', labelsize=12, color='white')
 
     # Устанавливаем заголовок
     ax.set_title('Devil\'s Toys', fontsize=15)
-    
+
     return fig
 
 fig = plot_devil_toys(X, y)
